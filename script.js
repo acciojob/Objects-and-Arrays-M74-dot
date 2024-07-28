@@ -7,8 +7,8 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 var team = players;
-var team1 - players;
-var cap1 = person;
+var team1 = [...players];
+var cap1 = JSON.parse(JSON.stringify(person));
 
 window.players = players;
 window.person = person;
